@@ -1,0 +1,89 @@
+imgslide=new Array ()
+
+imgslide[0]=new Image()
+imgslide[1]=new Image()
+imgslide[2]=new Image()
+imgslide[3]=new Image()
+imgslide[4]=new Image()
+imgslide[5]=new Image()
+imgslide[6]=new Image()
+imgslide[7]=new Image()
+imgslide[8]=new Image()
+imgslide[9]=new Image()
+imgslide[10]=new Image()
+imgslide[11]=new Image()
+imgslide[12]=new Image()
+imgslide[13]=new Image()
+imgslide[14]=new Image()
+imgslide[15]=new Image()
+imgslide[16]=new Image()
+imgslide[17]=new Image()
+imgslide[18]=new Image()
+imgslide[19]=new Image()
+imgslide[20]=new Image()
+imgslide[21]=new Image()
+imgslide[22]=new Image()
+imgslide[23]=new Image()
+imgslide[24]=new Image()
+imgslide[25]=new Image()
+imgslide[26]=new Image()
+imgslide[27]=new Image()
+imgslide[28]=new Image()
+imgslide[29]=new Image()
+imgslide[30]=new Image()
+imgslide[31]=new Image()
+imgslide[32]=new Image()
+
+imgslide[0].src="../pic/gallery/1.jpg"
+imgslide[1].src="../pic/gallery/2.jpg"
+imgslide[2].src="../pic/gallery/3.jpg"
+imgslide[3].src="../pic/gallery/4.jpg"
+imgslide[4].src="../pic/gallery/5.jpg"
+imgslide[5].src="../pic/gallery/6.jpg"
+imgslide[6].src="../pic/gallery/7.jpg"
+imgslide[7].src="../pic/gallery/8.jpg"
+imgslide[8].src="../pic/gallery/9.jpg"
+imgslide[9].src="../pic/gallery/10.jpg"
+imgslide[10].src="../pic/gallery/11.jpg"
+imgslide[11].src="../pic/gallery/12.jpg"
+imgslide[12].src="../pic/gallery/13.jpg"
+imgslide[13].src="../pic/gallery/14.jpg"
+imgslide[14].src="../pic/gallery/15.jpg"
+imgslide[15].src="../pic/gallery/16.jpg"
+imgslide[16].src="../pic/gallery/17.jpg"
+imgslide[17].src="../pic/gallery/18.jpg"
+imgslide[18].src="../pic/gallery/19.jpg"
+imgslide[19].src="../pic/gallery/20.jpg"
+imgslide[20].src="../pic/gallery/21.jpg"
+imgslide[21].src="../pic/gallery/22.jpg"
+imgslide[22].src="../pic/gallery/23.jpg"
+imgslide[23].src="../pic/gallery/24.jpg"
+imgslide[24].src="../pic/gallery/25.jpg"
+imgslide[25].src="../pic/gallery/26.jpg"
+imgslide[26].src="../pic/gallery/27.jpg"
+imgslide[27].src="../pic/gallery/28.jpg"
+imgslide[28].src="../pic/gallery/29.jpg"
+imgslide[29].src="../pic/gallery/30.jpg"
+imgslide[30].src="../pic/gallery/31.jpg"
+imgslide[31].src="../pic/gallery/32.jpg"
+numimg=0;
+
+function dem(a)
+{
+if(a=='forward')
+{numimg++;
+if (numimg==5) numimg=0;
+}
+else
+{numimg--;
+if(numimg==-1) numimg=4;
+}
+document.getElementById('show').src=imgslide[numimg].src
+}
+
+
+<div id="gallery"><img src="sh/pic1.jpg" alt="pic1" width="400" height="400" border="0" id="show">
+<form name="form1">
+<input type="button" value="NAZAD!!!" onClick="dem('back')">
+<input type="button" value="moar!1" onClick="dem('forward')">
+</form></div>

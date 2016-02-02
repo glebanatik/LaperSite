@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Gleb Miroshnik @ Fab Academy 2016</title>
-
+<!-- TemplateEndEditable -->
 <!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap.css" rel="stylesheet">
 <style type="text/css">
-@import url("css/simpleGridTemplate.css");
+@import url("file:///C|/Program Files/Adobe/Adobe Dreamweaver CC 2015/configuration/BuiltIn/Basic Layouts/css/simpleGridTemplate.css");
 </style>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,13 +19,15 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 <body>
 <nav class="navbar navbar-default">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="Index.html">Lapser </a></div>
+      <a class="navbar-brand" href="#">Lapser </a></div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="defaultNavbar1">
       <ul class="nav navbar-nav">
@@ -32,7 +35,7 @@
         <li><a href="http://fablab.spbstu.ru/">Fab Lab Polytech (St.Petersburg, Russia)</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="AboutMe.html">Gleb Miroshnik</a></li>
+        <li><a href="#">Gleb Miroshnik</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -61,11 +64,11 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-4 text-center col-lg-5 col-lg-offset-1"><img src="pic/filmtemplate.png" width="220" height="165" alt=""/>
-      <h4><a href="Week1.1.html">Assignment 1.1 Prinsiples & Practices</a></h4>
+    <div class="col-sm-4 text-center col-lg-5 col-lg-offset-1"><img src="../pic/filmtemplate.png" width="220" height="165" alt=""/>
+      <h4><a href="">Assignment 1.1 Prinsiples & Practices</a></h4>
       <p style="text-justify:auto">In which I tell you my pre-Academy thoughts on my project. <br> One day I'll look at this page and realize how completely wrong I was.</p>
     </div>
-    <div class="col-sm-4 text-center col-lg-5 col-lg-offset-0"><img src="pic/filmtemplate.png" width="220" height="165" alt=""/>
+    <div class="col-sm-4 text-center col-lg-5 col-lg-offset-0"><img src="../pic/filmtemplate.png" width="220" height="165" alt=""/>
       <h4><a href="">Assignment 1.2 Project management</a></h4>
       <p style="text-justify:auto">In which I awake some old skills, play with Git sandbox, <br>install Dreamweaver and discover glory of Bootstrap.</p>
     </div>
@@ -79,9 +82,9 @@
   <hr>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-1.11.3.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>
